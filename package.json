@@ -1,6 +1,6 @@
 {
   "name": "flowlens",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "FlowLens - 财流镜桌面应用",
   "main": "./out/main/index.js",
   "author": "FlowLens",
@@ -44,7 +44,7 @@
     "appId": "cc.dbao.flowlens",
     "productName": "财流镜",
     "copyright": "Copyright © 2025 FlowLens",
-    "artifactName": "财流镜-${version}-${arch}.${ext}",
+    "artifactName": "${productName}-${version}-${arch}.${ext}",
     "icon": "resources/icon",
     "files": [
       "out/**/*",
