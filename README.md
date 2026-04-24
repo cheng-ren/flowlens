@@ -148,6 +148,18 @@ src/
         └── webview/FloatWebviewPanel.tsx
 ```
 
+## 打包
+```
+# 小版本修复（1.0.0 → 1.0.1）
+npm run release -- patch
+# 功能更新（1.0.0 → 1.1.0）
+npm run release -- minor
+# 重大版本（1.0.0 → 2.0.0）
+npm run release -- major
+# 直接指定版本号
+npm run release -- 1.2.3
+```
+
 ---
 
 ## 注意事项

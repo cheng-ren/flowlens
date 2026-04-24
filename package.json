@@ -44,6 +44,7 @@
     "appId": "cc.dbao.flowlens",
     "productName": "财流镜",
     "copyright": "Copyright © 2025 FlowLens",
+    "artifactName": "财流镜-${version}-${arch}.${ext}",
     "icon": "resources/icon",
     "files": [
       "out/**/*",
