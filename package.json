@@ -45,7 +45,7 @@
     "productName": "财流镜",
     "copyright": "Copyright © 2025 FlowLens",
     "artifactName": "${productName}-${version}-${arch}.${ext}",
-    "icon": "resources/icon",
+    "icon": "resources/icon.png",
     "files": [
       "out/**/*",
       "resources/**/*"
@@ -79,8 +79,7 @@
             "x64"
           ]
         }
-      ],
-      "icon": "resources/icon.ico"
+      ]
     },
     "nsis": {
       "oneClick": false,
@@ -90,8 +89,6 @@
         "en_US"
       ],
       "language": "2052",
-      "installerIcon": "resources/icon.ico",
-      "uninstallerIcon": "resources/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "财流镜"

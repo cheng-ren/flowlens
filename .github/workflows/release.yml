@@ -29,6 +29,9 @@ jobs:
       - name: 安装依赖（含 native 模块重建）
         run: npm ci
 
+      - name: 生成图标（如 resources/icon.png 不存在）
+        run: python3 scripts/generate-icon.py
+
       - name: 构建 macOS 安装包
         run: npm run build:mac
         env:
@@ -62,6 +65,9 @@ jobs:
 
       - name: 安装依赖（含 native 模块重建）
         run: npm ci
+
+      - name: 生成图标（如 resources/icon.png 不存在）
+        run: python3 scripts/generate-icon.py
 
       - name: 构建 Windows 安装包
         run: npm run build:win
