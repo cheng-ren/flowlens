@@ -1,6 +1,6 @@
 {
   "name": "flowlens",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "FlowLens - 财流镜桌面应用",
   "main": "./out/main/index.js",
   "author": "FlowLens",
@@ -51,7 +51,12 @@
     ],
     "mac": {
       "target": [
-        { "target": "dmg", "arch": ["universal"] }
+        {
+          "target": "dmg",
+          "arch": [
+            "universal"
+          ]
+        }
       ],
       "category": "public.app-category.finance",
       "identity": null,
@@ -60,18 +65,29 @@
     "dmg": {
       "title": "财流镜 FlowLens",
       "background": null,
-      "window": { "width": 540, "height": 380 }
+      "window": {
+        "width": 540,
+        "height": 380
+      }
     },
     "win": {
       "target": [
-        { "target": "nsis", "arch": ["x64"] }
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
       ],
       "icon": "resources/icon.ico"
     },
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "installerLanguages": ["zh_CN", "en_US"],
+      "installerLanguages": [
+        "zh_CN",
+        "en_US"
+      ],
       "language": "2052",
       "installerIcon": "resources/icon.ico",
       "uninstallerIcon": "resources/icon.ico",
