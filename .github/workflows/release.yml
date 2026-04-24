@@ -42,8 +42,8 @@ jobs:
           prerelease: false
           generate_release_notes: true   # 自动从提交记录生成更新说明
           files: |
-            dist/*.dmg
-            dist/*.zip
+            dist/*-universal.dmg
+            dist/*-universal-mac.zip
 
   # ── Windows 构建 ───────────────────────────────────────────────────────────
   build-win:
@@ -76,5 +76,4 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            dist/*.exe
-            dist/*.msi
+            dist/*-x64.exe
